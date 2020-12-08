@@ -14,20 +14,16 @@ To get started you can simply clone this repository using git or download the pr
 ## Running the application locally
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the main method in the com/connected/cityroutes/Application class from your IDE.
 
-Alternatively you can use the Spring Boot Maven plugin like so:
-
-mvn spring-boot:run
-
 ### Configuration
 
 The configuration is located in `src/main/resources/application.properties`.
-You can enter the exposed API while the application is running.
-For example: http://localhost:8080/connected?origin=Boston&destination=Newark
+You can enter the URLs while the application is running on browser or postman app , you will get the expected out put.
+For example: http://localhost:8080/connected?origin=Boston&destination=Newark .
 You may also enter more routes in city.txt file.
 
 ### Unit Test 
-The JUnit unit tests are located as usual in their respective package, under root of-
+The JUnit unit tests are located under their respective package:
 
-src/test/java/com/connected/cityroutes/ApplicationTests.java 
+src/test/java/com/connected/cityroutes
 
 
